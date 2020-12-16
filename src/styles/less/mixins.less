@@ -7,3 +7,29 @@
   justify-content: @justify;
   align-items: @align;
 } // closes .flexbox
+
+.buttons(@bg-color, @txt-color, @height, @width) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: @bg-color;
+  color: @txt-color;
+  text-decoration: none;
+  width: @width;
+  height: @height;
+  border-radius: 1rem;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    opacity: 0.9;
+  } // closes &:hover
+  &:active {
+    opacity: 1;
+    outline: none;
+  } // closes &:active
+  &:visited {
+    text-decoration: none;
+  } // closes &:visited
+} // closes .button

@@ -136,6 +136,50 @@ html {
 body {
   background-image: url(../../assets/pool_table.png);
   background-repeat: repeat;
+  font-family: "Roboto", "sans-serif";
+}
+h1 {
+  color: white;
+  font-size: 8rem;
+}
+.start-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.start-wrapper .card-back {
+  width: 40rem;
+}
+.start-wrapper .nav-link {
+  text-decoration: none;
+}
+.start-wrapper .nav-link button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gainsboro;
+  color: Black;
+  text-decoration: none;
+  width: 15rem;
+  height: 5rem;
+  border-radius: 1rem;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-size: 2rem;
+}
+.start-wrapper .nav-link button:hover {
+  opacity: 0.9;
+}
+.start-wrapper .nav-link button:active {
+  opacity: 1;
+  outline: none;
+}
+.start-wrapper .nav-link button:visited {
+  text-decoration: none;
 }
 /*!
  * Font Awesome Free 5.14.0 by @fontawesome - https://fontawesome.com
