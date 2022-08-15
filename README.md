@@ -8,8 +8,8 @@ First, cd into the project folder and run `npm i`.
 
 ## Items to add:
 
-[] favicon.ico to public/
-[] logo192.png to public/
+    [] favicon.ico to public/
+    [] logo192.png to public/
 
 # App Name
 
